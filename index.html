@@ -1,4 +1,5 @@
-
+---
+---
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -43,12 +44,10 @@
 </blockquote>
 
 <p><br /></p>
-
-<p>two</p>
-
-<p>one</p>
-
-<p><br /></p>
+<h2>Latest posts</h2>
+      {% for post in site.posts%}
+      <li><a href="{{post.url}}">{{post.title}}</a></li>
+      {% endfor %}
 
 
       
