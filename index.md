@@ -3,7 +3,7 @@ Films cut across people; societies; borders; and perhaps in distant future, worl
 <br>
 
 {% for post in site.posts %}
-{{page.url}}
+{{page.title}}
 {% endfor %}
 
 <br>
