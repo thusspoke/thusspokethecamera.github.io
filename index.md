@@ -1,6 +1,6 @@
 Welcome home
 <br>
 
-{{site.pages}}
+{{page.title}}
 
 
