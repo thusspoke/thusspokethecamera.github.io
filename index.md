@@ -4,7 +4,7 @@
 <br>
 
 {% for post in site.posts %}
-{{page.title}}
+{{post.title}}
 {% endfor %}
 
 <br>
