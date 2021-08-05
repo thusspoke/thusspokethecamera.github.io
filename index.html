@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thus Spoke The Camera</title>
+  <style>
+      
+    .container{
+      max-width: 700px;
+      margin: 0 auto:
+    }
+  </style>
+  </head>
+  <body>
+  <div class="container">
+    <h1 id="thus-spoke-the-camera">Thus Spoke The Camera</h1>
+    <blockquote>Films cut across people; societies; borders; and perhaps in distant future, worlds. It is, as Frank Capra puts, one of the three universal languages. Here, we deconstruct the language of films to reconstruct an empathetic understanding of the world.</blockquote>
+
+<br>
+
+{% for post in site.posts %}
+{{post.title | post_url}}
+{% endfor %}
+
+<br>
+    </div>
+</body>
+</html>
